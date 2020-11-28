@@ -1,0 +1,91 @@
+/* Your card CSS file */
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-category {
+  background-image: url('../../images/banana.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product div {
+    margin: 10px 10px;
+}
+
+.card-product {
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: black;
+  font-size: 16px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+.card-trip h2, p {
+    margin: 10px 10px;
+}
+
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.card-trip {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.card-trip h3 {
+    position: absolute;
+    bottom: -12px;
+    right: 2px;
+}
+
+.card-trip .avatar {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 173px;
+  right: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
